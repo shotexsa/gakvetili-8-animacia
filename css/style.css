@@ -9,32 +9,29 @@
 	position:absolute;
 	left:250px;
 	top:340px;
-	animation-name:wamosvla;
-	-webkit-animation: wamosvla 5s infinite;  Safari 4.0 - 8.0 
-
+	animation: marcxena 15s infinite;
 }
-  Standard syntax 
-@keyframes wamosvla{
 
-  from {top: 0px;}
-  to {top: 200px;}
-   /* 0% {left: 0; left:100px; background-color:green;}
+ 
+@keyframes marcxena{
 
-    25% {left: 100px; background-color:yellow}
-    
-    50% {left: 50px; background-color:black}
 
-    75% {left: 50; top:140px; background-color:blue}
-
-    100% {left: 50; background-color:white}
-
-*/
+  from {left: 250px;}
+  to {left: 550px;}
 
 	}
+
 .right{
 	width:150px;
 	height:170px;
 	position:absolute;
 	right:600px;
 	top:340px;
+	animation: marjvena 15s infinite;
 }
+
+@keyframes marjvena{
+
+
+  from {right: 600px;}
+  to {right: 900px;}
